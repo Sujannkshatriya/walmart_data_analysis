@@ -1,21 +1,21 @@
 ## Walmart Data Analysis using Python and SQL
 
 
-'''select * from walmart_data;'''
+```select * from walmart_data;```
 
-select count(*) from walmart_data
+```select count(*) from walmart_data```
 
 ###--Analyze Payment Methods and Sales
 
-select payment_method,
-count(*) as no_payment,
-sum(quantity) as no_of_sold
-from walmart_data
-group by payment_method
+```select payment_method,```
+```count(*) as no_payment,```
+```sum(quantity) as no_of_sold```
+```from walmart_data```
+```group by payment_method```
 
 ###--Which category received the highest average rating in each branch?
 
-select
+```select
 "Branch",
 category,
 avg(rating) as avg_rate,
