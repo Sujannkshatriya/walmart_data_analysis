@@ -81,5 +81,5 @@ group by 1,2
 	 else 'Evening'
 	end day_time,
 count(*)
-from walmart_data
+from walmart_data	
 gro```up by 1
