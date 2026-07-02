@@ -5,7 +5,7 @@
 
 ```select count(*) from walmart_data```
 
-###--Analyze Payment Methods and Sales
+#--Analyze Payment Methods and Sales
 
 ```
 select payment_method,
